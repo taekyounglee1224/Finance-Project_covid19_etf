@@ -10,7 +10,7 @@
 
 ### 사용 언어 및 Tool:
 - Python 3.9 ~ 3.11
-- Models : ARIMAX, Granger Casuality
+- Models : ARIMA, ARIMAX
 
 ### References
 - 남영진, 김재혁, 조하현(2022). 국내주식시장 수익률 변동성 추정 및 변동성 전이효과 : 코로나 19, 메르스, 신종플루 기간을 중심으로. [한국산업경제 저널, 35(3), 421-458]
