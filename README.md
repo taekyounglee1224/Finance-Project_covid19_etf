@@ -5,25 +5,36 @@
 ------------------------------------------------------------------------------------------------
 ### Analysis on the economic impact of the COVID-19 Pandemic on ETF markets by correlation of COVID exogenous variables with the volatility of ETF stock prices
 
-- Exog: 확진자 수, 사망자 수
-- Target : KODEX, TIGER, TIGER200
+- Exog: 확진자 수, 사망자 수 <a href = "https://kdx.kr/data/view/25918">출처: KDX 한국 데이터거래소</a>
+- Target : KODEX, TIGER, TIGER200 <a href = "https://finance.naver.com/sise/etf.naver">출처: 네이버 증권 ETF</a>
 -------------------------------------------------------------------------------------------------------
 ### Table of Contents
-- Project Introduction
+
+- Introduction
 - Environments and Tools
 - References
 
 ---------------------------------------------------------------------------------------------
+
+### Introduction
+
+Our key goal for the research is to confirm our hypothesis that the Pandemic of the COVID-19 will have economically impacted certain domestic ETF Stocks.
+Based on our conclusion, we are looking forward to interpret our results by relating our analysis to social phenomena. We have  
 
 ### Environments and Tools:
 - Request Tools
 - Python 3.9 ~ 3.11
 - Models : ARIMA, ARIMAX, Auto Arima
 
+
   !pip install requests
   !pip install pmdarima
+  !pip install statsmodels
 
   from pmdarima import auto_arima
+  from statsmodels.tsa.arima.model import ARIMA
+
+
 -------------------------------------------------------------------------------------------------------
 ### References
 - 남영진, 김재혁, 조하현(2022). 국내주식시장 수익률 변동성 추정 및 변동성 전이효과 : 코로나 19, 메르스, 신종플루 기간을 중심으로. [한국산업경제 저널, 35(3), 421-458]
