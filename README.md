@@ -1,16 +1,29 @@
 
-## 코로나 팬데믹 외생변수에 따른 국내 ETF 가격 변동 추이 📊
+## How ETF prices have changed in response to COVID-19 Pandemic Situations 📊
 - 공동저자: 이태경, 박성수, 신경수, 이수인
 - 교신저자: 최인수, 김장호, 김우창
 ------------------------------------------------------------------------------------------------
-### 코로나 팬데믹 상황이 국내 ETF 시장에 경제적으로 어떤 영향을 미치는지 그 외생변수와 ETF 종목 종가의 변동성에 대한 상관관계 분석
+### Analysis on the economic impact of the COVID-19 Pandemic on ETF markets by correlation of COVID exogenous variables with the volatility of ETF stock prices
 
-- 외생변수: 확진자 수, 사망자 수
-- ETF : KODEX, TIGER, TIGER200
+- Exog: 확진자 수, 사망자 수
+- Target : KODEX, TIGER, TIGER200
 -------------------------------------------------------------------------------------------------------
-### 사용 언어 및 Tool:
+### Table of Contents
+- Project Introduction
+- Environments and Tools
+- References
+
+---------------------------------------------------------------------------------------------
+
+### Environments and Tools:
+- Request Tools
 - Python 3.9 ~ 3.11
-- Models : ARIMA, ARIMAX
+- Models : ARIMA, ARIMAX, Auto Arima
+
+  !pip install requests
+  !pip install pmdarima
+
+  from pmdarima import auto_arima
 -------------------------------------------------------------------------------------------------------
 ### References
 - 남영진, 김재혁, 조하현(2022). 국내주식시장 수익률 변동성 추정 및 변동성 전이효과 : 코로나 19, 메르스, 신종플루 기간을 중심으로. [한국산업경제 저널, 35(3), 421-458]
