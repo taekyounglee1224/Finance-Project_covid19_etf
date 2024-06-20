@@ -1,7 +1,8 @@
 
 ## How ETF prices have changed in response to COVID-19 Pandemic Situations 📊
-- 공동저자: 이태경, 박성수, 신경수, 이수인
-- 교신저자: 최인수, 김장호, 김우창
+- 공동 1 저자: 이태경, 박성수, 신경수, 이수인
+- 공동 2 저자: 최인수, 김장호
+- 교신저자: 김우창
 ------------------------------------------------------------------------------------------------
 ### Analysis on the economic impact of the COVID-19 Pandemic on ETF markets by correlation of COVID exogenous variables with the volatility of ETF stock prices
 
