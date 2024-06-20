@@ -1,5 +1,5 @@
 
-## How ETF prices have changed in response to COVID-19 Pandemic Situations 📊
+## Changes in ETF Price in response to COVID-19 Pandemic Situations 📊
 - 공동 1 저자: 이태경, 박성수, 신경수, 이수인
 - 공동 2 저자: 최인수, 김장호
 - 교신저자: 김우창
