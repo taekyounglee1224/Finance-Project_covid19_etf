@@ -27,14 +27,14 @@ Based on our conclusion, we are looking forward to interpret our results by rela
 - Python 3.9 ~ 3.11
 - Models : ARIMA, ARIMAX, Auto Arima
 
-
+'''
   !pip install requests
   !pip install pmdarima
   !pip install statsmodels
 
   from pmdarima import auto_arima
   from statsmodels.tsa.arima.model import ARIMA
-
+'''
 
 -------------------------------------------------------------------------------------------------------
 ### References
