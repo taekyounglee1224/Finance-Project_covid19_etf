@@ -25,7 +25,6 @@ Based on our conclusion, we are looking forward to interpret our results by rela
 
 ### Environments and Tools:
 - Environments: Google Colab, VSCode
-  
 - Python 3.9 ~ 3.11
 - scikit-learn version: 1.5.1
 - statsmodels version: 0.14.2
