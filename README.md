@@ -13,6 +13,7 @@
 
 - Introduction
 - Environments and Tools
+- Models
 - References
 
 ---------------------------------------------------------------------------------------------
@@ -23,6 +24,8 @@ Our key goal for the research is to confirm our hypothesis that the Pandemic of 
 Based on our conclusion, we are looking forward to interpret our results by relating our analysis to social phenomena. We have  
 
 ### Environments and Tools:
+- Environments: Google Colab, VSCode
+  
 - Python 3.9 ~ 3.11
 - scikit-learn version: 1.5.1
 - statsmodels version: 0.14.2
