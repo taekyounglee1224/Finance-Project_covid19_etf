@@ -11,6 +11,7 @@
 - Clustering을 통해 ARIMAX와 GC-Test에서의 COVID-19 외생변수와 ETF종목 간의 설명력 결과 비교
 
 
+## Models
 ### ARIMAX
 $$\begin{equation}
 y_t = \alpha + \sum_{i=1}^{p} \phi_i y_{t-i} + \sum_{i=1}^{q} \theta_i \epsilon_{t-i} + \sum_{i=0}^{r} \beta_i x_{t-i} + \epsilon_t
