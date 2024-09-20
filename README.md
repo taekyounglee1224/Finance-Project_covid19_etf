@@ -23,17 +23,39 @@ Our key goal for the research is to confirm our hypothesis that the Pandemic of 
 Based on our conclusion, we are looking forward to interpret our results by relating our analysis to social phenomena. We have  
 
 ### Environments and Tools:
-- Request Tools
 - Python 3.9 ~ 3.11
-- Models : ARIMA, ARIMAX, Auto Arima
+- scikit-learn version: 1.5.1
+- statsmodels version: 0.14.2
+- pandas version: 2.1.4
+- numpy version: 1.26.4
+- matplotlib version: 3.8.0
+- seaborn version: 0.12.2
+
+### Models:
+- ARIMAX
+- Granger Causality (GC)
+- K-Means Clustering
 
 ```
   !pip install requests
   !pip install pmdarima
   !pip install statsmodels
 
+  import pandas as pd
+  import numpy as np
+  import matplotlib.pyplot as plt
+  import seaborn as sns
+  from sklearn.preprocessing import StandardScaler
+  from sklearn.cluster import KMeans
+  
   from pmdarima import auto_arima
   from statsmodels.tsa.arima.model import ARIMA
+  from statsmodels.tsa.stattools import grangercausalitytests
+  from tqdm import tqdm
+  from matplotlib.ticker import MultipleLocator
+  import warnings
+  warnings.filterwarnings("ignore", category=FutureWarning)
+  
 ```
 
 -------------------------------------------------------------------------------------------------------
