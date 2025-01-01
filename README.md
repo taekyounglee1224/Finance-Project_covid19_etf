@@ -21,7 +21,7 @@
 ### Introduction
 
 Our key goal for the research is to confirm our hypothesis that the Pandemic of the COVID-19 will have economically impacted certain domestic ETF Stocks.
-Based on our conclusion, we are looking forward to interpret our results by relating our analysis to social phenomena. We have  
+Based on our conclusion, we are looking forward to interpret our results by relating our analysis to social phenomena. 
 
 ### Environments and Tools:
 - Environments: Google Colab, VSCode
